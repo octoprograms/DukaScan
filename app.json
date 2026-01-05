@@ -24,7 +24,11 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1B5E20"
       },
-      "permissions": ["CAMERA"],
+      "permissions": [
+        "CAMERA",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
       "package": "com.dukascan.app"
     },
     "web": {
@@ -38,15 +42,9 @@
         }
       ]
     ],
-    "updates": {
-      "url": "https://u.expo.dev/UPDATE_ID_PLACEHOLDER"
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
     "extra": {
       "eas": {
-        "projectId": "PROJECT_ID_PLACEHOLDER"
+        "projectId": "689c2803-fca5-46d9-bb0b-040d4d186c8a"
       }
     }
   }
